@@ -1,0 +1,206 @@
+d:
+
+daily : 1 time. 6 
+day : 2 times. 19 19 
+deal : 2 times. 8 8 
+december : 1 time. 29 
+decided : 2 times. 13 25 
+dedicated : 1 time. 15 
+def : 1 time. 27 
+details : 1 time. 15 
+developed : 1 time. 29 
+development : 1 time. 10 
+did : 1 time. 27 
+digital : 1 time. 11 
+disappointment : 1 time. 27 
+double : 1 time. 21 
+downloads : 1 time. 3 
+dragons : 1 time. 3 
+dragonvale : 1 time. 2 
+during : 1 time. 19 
+durov : 5 times. 8 11 13 13 15 
+durov's : 1 time. 13 
+
+
+a-i:
+
+a : 14 times. 3 3 11 11 11 15 19 21 21 23 25 27 27 29 
+according : 1 time. 6 
+accounts : 1 time. 6 
+africaisrael : 1 time. 11 
+after : 6 times. 6 15 17 21 27 27 
+aired : 1 time. 19 
+airtime : 1 time. 23 
+album : 5 times. 25 25 27 27 27 
+album's : 2 times. 23 23 
+alexa's : 1 time. 6 
+alisher : 1 time. 8 
+all : 1 time. 2 
+allies : 1 time. 8 
+allowing : 1 time. 8 
+allows : 1 time. 4 
+although : 1 time. 11 
+ambassadors : 1 time. 23 
+american : 1 time. 29 
+among : 1 time. 4 
+amusement : 3 times. 27 27 29 
+an : 2 times. 6 29 
+and : 25 times. 2 2 3 4 4 4 4 4 6 8 10 11 11 11 11 13 21 21 23 25 25 25 25 27 29 
+announced : 1 time. 13 
+another : 1 time. 25 
+april : 2 times. 13 15 
+are : 1 time. 21 
+around : 2 times. 4 8 
+as : 7 times. 6 6 6 11 21 21 29 
+at : 9 times. 6 19 21 21 25 25 25 25 29 
+audio : 1 time. 4 
+available : 1 time. 4 
+average : 1 time. 6 
+award : 1 time. 27 
+backflip : 2 times. 2 3 
+bad : 1 time. 23 
+ballad : 1 time. 23 
+band : 7 times. 19 21 21 25 25 27 29 
+base : 1 time. 29 
+became : 1 time. 29 
+becoming : 1 time. 10 
+behind : 2 times. 23 25 
+being : 1 time. 3 
+belarus : 1 time. 4 
+bernardino : 1 time. 19 
+big : 1 time. 23 
+billion : 2 times. 8 13 
+blackout : 1 time. 19 
+blasted : 1 time. 3 
+blesmir : 1 time. 10 
+blunder : 1 time. 17 
+bought : 2 times. 10 13 
+boys : 1 time. 23 
+british : 1 time. 27 
+browserbased : 1 time. 4 
+but : 2 times. 4 27 
+by : 3 times. 8 13 21 
+california : 1 time. 19 
+canceled : 1 time. 17 
+capital : 3 times. 8 8 13 
+cemented : 1 time. 21 
+ceo : 4 times. 8 8 11 13 
+chagrin : 1 time. 23 
+channel : 1 time. 23 
+charts : 2 times. 21 25 
+citing : 1 time. 17 
+city : 1 time. 23 
+climbed : 1 time. 21 
+combined : 1 time. 13 
+coming : 1 time. 15 
+company : 6 times. 8 8 8 11 13 15 
+concert : 2 times. 19 19 
+conditions : 1 time. 17 
+considered : 1 time. 27 
+consolidate : 1 time. 8 
+contacts : 1 time. 4 
+contributing : 1 time. 23 
+control : 1 time. 13 
+controlled : 2 times. 8 8 
+controlling : 1 time. 8 
+create : 1 time. 4 
+critical : 1 time. 27 
+daily : 1 time. 6 
+day : 2 times. 19 19 
+deal : 2 times. 8 8 
+december : 1 time. 29 
+decided : 2 times. 13 25 
+dedicated : 1 time. 15 
+def : 1 time. 27 
+details : 1 time. 15 
+developed : 1 time. 29 
+development : 1 time. 10 
+did : 1 time. 27 
+digital : 1 time. 11 
+disappointment : 1 time. 27 
+double : 1 time. 21 
+downloads : 1 time. 3 
+dragons : 1 time. 3 
+dragonvale : 1 time. 2 
+during : 1 time. 19 
+durov : 5 times. 8 11 13 13 15 
+durov's : 1 time. 13 
+ebizmba : 1 time. 6 
+encyclopedia : 1 time. 0 
+especially : 1 time. 4 
+euromaidan : 1 time. 15 
+europe : 1 time. 4 
+even : 1 time. 23 
+events : 1 time. 4 
+executive : 1 time. 23 
+exposure : 1 time. 19 
+extended : 1 time. 29 
+extensive : 1 time. 27 
+extensively : 1 time. 25 
+facebook's : 1 time. 17 
+family : 1 time. 8 
+fan : 1 time. 29 
+fans : 1 time. 19 
+federal : 1 time. 15 
+festival : 2 times. 19 29 
+few : 1 time. 21 
+finally : 2 times. 21 27 
+first : 3 times. 21 21 25 
+five : 2 times. 27 27 
+follow : 1 time. 2 
+following : 2 times. 8 29 
+for : 5 times. 2 3 8 13 25 
+formerly : 1 time. 11 
+found : 1 time. 27 
+founder : 2 times. 8 11 
+founders : 1 time. 11 
+four : 1 time. 27 
+free : 1 time. 0 
+fresh : 1 time. 2 
+from : 9 times. 0 2 8 10 11 13 15 19 19 
+gaining : 1 time. 19 
+game : 1 time. 3 
+games : 2 times. 2 4 
+gave : 2 times. 13 23 
+giving : 2 times. 8 19 
+global : 1 time. 6 
+greatly : 1 time. 23 
+group : 5 times. 10 11 13 15 29 
+groups : 1 time. 4 
+had : 6 times. 6 6 11 15 27 29 
+hand : 1 time. 15 
+has : 1 time. 13 
+hatched : 1 time. 3 
+he : 2 times. 11 15 
+heavy : 2 times. 23 27 
+heep : 1 time. 29 
+height : 1 time. 25 
+held : 1 time. 19 
+heroes : 1 time. 23 
+him : 2 times. 13 13 
+his : 7 times. 8 8 8 8 8 13 15 
+hit : 1 time. 3 
+however : 1 time. 27 
+hurricane : 2 times. 21 23 
+images : 1 time. 4 
+in : 30 times. 4 4 4 4 6 6 6 8 8 8 8 8 8 13 13 15 15 19 19 19 21 25 25 25 25 27 29 29 29 29 
+incorporated : 1 time. 11 
+increasing : 1 time. 15 
+industry : 1 time. 23 
+influence : 1 time. 23 
+insiders : 1 time. 23 
+internationally : 1 time. 21 
+investments : 1 time. 11 
+investors : 1 time. 11 
+ipo : 2 times. 17 17 
+is : 6 times. 4 4 6 6 6 8 
+it : 6 times. 3 4 6 8 13 21 
+its : 2 times. 13 21 
+ivan : 1 time. 13 
+
+
+o-b:
+
+incorrect range!!!
+
+
