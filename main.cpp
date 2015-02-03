@@ -46,13 +46,19 @@ void print_range(map<string, vector<unsigned>> &_words, const string &_range, os
 		// get iterators to first and past-the-end elements in the range
 		auto begin_iter = _words.lower_bound(begin_word);
 		auto end_iter = _words.lower_bound(end_word);
-		while (begin_iter != end_iter) {	// for all elements from range
-			_out_stream << begin_iter->first << " : ";	// print word itself
-			_out_stream << begin_iter->second.size() << ((begin_iter->second.size() == 1) ? " time. " : " times. ");
-			for (const unsigned u : begin_iter->second)
-				_out_stream << u << " ";	// print numbers of lines where this word was found
-			_out_stream << endl;
-			++begin_iter;
+		if(begin_iter != end_iter) {
+			while (begin_iter != end_iter) {	// for all elements from range
+				_out_stream << begin_iter->first << " : ";	// print word itself
+				_out_stream << begin_iter->second.size();	// print how many times word was found
+				_out_stream << ((begin_iter->second.size() == 1) ? " time. " : " times. ");
+				for (const unsigned u : begin_iter->second)
+					_out_stream << u << " ";	// print numbers of lines where this word was found
+				_out_stream << endl;
+				++begin_iter;
+			}
+		}
+		else {
+			_out_stream << "empty range.\n";
 		}
 	}
 	else {	// borders are not OK
