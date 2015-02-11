@@ -22,7 +22,7 @@ using std::getline;
 string make_word(const string &_word) {	// function modifying word to get rid of dots, commas and so on
 	string res;	// resulted string
 	for(char c : _word)	// check every symbol
-		if (islower(c) || isupper(c) || c == '\'')	// if it is a letter or apostrophe
+		if (isalpha(c) || c == '\'')	// if it is a letter or apostrophe
 			res.push_back(tolower(c));	// add symbol to resulted string
 	return res;	// everything is good, return resulted word
 }
