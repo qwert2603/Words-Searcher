@@ -64,8 +64,9 @@ void Text::print_range(ostream &_out_stream, const string &_range) const {
 		begin_word.assign(_range.cbegin(), iter_dash);
 		end_word.assign(++iter_dash, _range.cend());
 	}
-	++end_word[end_word.size() - 1];
 	if (end_word >= begin_word) {
+		// right border if a little more than last word in the range
+		++end_word[end_word.size() - 1];
 		auto begin_iter = words.lower_bound(begin_word);
 		auto end_iter = words.lower_bound(end_word);
 		if (begin_iter != end_iter) {
