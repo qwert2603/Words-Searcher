@@ -25,7 +25,6 @@ using std::getline;
 using std::copy_if;
 using std::for_each;
 
-
 class Text {
 public:
 	explicit Text(istream &_input);
@@ -34,6 +33,8 @@ public:
 private:
 	// map conteining word and vector of lines where this word was found
 	map<string, vector<unsigned>> words;
+	pair<string, string> do_borders(string _range) const;
+	void do_print(ostream &_out_stream, map<string, vector<unsigned>>::const_iterator _b, map<string, vector<unsigned>>::const_iterator _e) const;
 };
 
 Text::Text(istream &_input) {
@@ -53,8 +54,7 @@ Text::Text(istream &_input) {
 	}
 }
 
-void Text::print_range(ostream &_out_stream, const string &_range) const {
-	_out_stream << _range << ":\n\n";
+pair<string, string> Text::do_borders(string _range) const {
 	string begin_word, end_word;
 	string::const_iterator iter_dash = find(_range.cbegin(), _range.cend(), '-');
 	if (iter_dash == _range.cend()) {
@@ -64,25 +64,35 @@ void Text::print_range(ostream &_out_stream, const string &_range) const {
 		begin_word.assign(_range.cbegin(), iter_dash);
 		end_word.assign(++iter_dash, _range.cend());
 	}
-	if (end_word >= begin_word) {
+	return make_pair(begin_word, end_word);
+}
+
+void Text::do_print(ostream &_out_stream, map<string, vector<unsigned>>::const_iterator _b, map<string, vector<unsigned>>::const_iterator _e) const {
+	if (_b != _e) {
+		while (_b != _e) {
+			_out_stream << _b->first << " : ";
+			_out_stream << _b->second.size();
+			_out_stream << ((_b->second.size() == 1) ? " time. " : " times. ");
+			for (const unsigned u : _b->second)
+				_out_stream << u << " ";
+			_out_stream << endl;
+			++_b;
+		}
+	}
+	else {
+		_out_stream << "empty range.\n";
+	}
+}
+
+void Text::print_range(ostream &_out_stream, const string &_range) const {
+	_out_stream << _range << ":\n\n";
+	auto borders = do_borders(_range);
+	if (borders.second >= borders.first) {
 		// right border if a little more than last word in the range
-		++end_word[end_word.size() - 1];
-		auto begin_iter = words.lower_bound(begin_word);
-		auto end_iter = words.lower_bound(end_word);
-		if (begin_iter != end_iter) {
-			while (begin_iter != end_iter) {
-				_out_stream << begin_iter->first << " : ";
-				_out_stream << begin_iter->second.size();
-				_out_stream << ((begin_iter->second.size() == 1) ? " time. " : " times. ");
-				for (const unsigned u : begin_iter->second)
-					_out_stream << u << " ";
-				_out_stream << endl;
-				++begin_iter;
-			}
-		}
-		else {
-			_out_stream << "empty range.\n";
-		}
+		++borders.second.back();
+		auto begin_iter = words.lower_bound(borders.first);
+		auto end_iter = words.lower_bound(borders.second);
+		do_print(_out_stream, begin_iter, end_iter);
 	}
 	else {
 		_out_stream << "incorrect range!!!\n";
